@@ -8,17 +8,19 @@ body {
 
 /* Main container */
 #root {
-  max-width: 900px;
-  margin: 40px auto;
+  width: 100%;  
+  max-width: 1200;        /* poori screen */
+  min-height: 100vh;    /* poori height */
+  margin: 25px;            /* koi gap nahi */
   padding: 2rem;
-  text-align: center;
+
   background: #1f2937;
-  border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  text-align: center;
 }
 
+
 /* Headings */
-h1 {
+app-header {
   color: #60a5fa;
   margin-bottom: 1rem;
 }
